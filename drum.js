@@ -7,6 +7,8 @@ let ride = document.getElementById("ride");
 let snare = document.getElementById("snare");
 let tink = document.getElementById("tink");
 let tom = document.getElementById("tom");
+let clapPic = document.getElementById("clapPic");
+let drumSticks = document.getElementById("drumSticks");
 
 document.addEventListener('keypress', (keyValue) => {
     if (keyValue.keyCode == 113) {
