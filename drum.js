@@ -16,6 +16,8 @@ document.addEventListener('keypress', (keyValue) => {
         boom.currentTime = 0
         boom.play();}
     else if (keyValue.keyCode == 119) {
+        clapPic.style.visibility = "visible"
+        setTimeout(() => {clapPic.style.visibility = "hidden"}, 200)
         clap.pause()
         clap.currentTime = 0
         clap.play();}
@@ -40,6 +42,8 @@ document.addEventListener('keypress', (keyValue) => {
         snare.currentTime = 0
         snare.play();}
     else if (keyValue.keyCode == 111) {
+        drumSticks.style.visibility = "visible"
+        setTimeout(() => {drumSticks.style.visibility = "hidden"}, 200)
         tink.pause()
         tink.currentTime = 0
         tink.play();}
